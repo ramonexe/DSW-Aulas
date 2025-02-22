@@ -141,24 +141,12 @@ a {
     background-image: url('/assets/site-icon.svg');
 }
 
-.link-repo-end {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.link-repo-profile {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
 .experience {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: #3f17af 3px solid;
-    border-radius: 5px;
+    box-shadow: 0 0 20px #3f17af;
+    border-radius: 15px;
     padding: 10px;
     margin-left: 20px;
     font-weight: 500;
@@ -210,8 +198,8 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: #3f17af 3px solid;
-    border-radius: 5px;
+    box-shadow: 0 0 20px #3f17af;
+    border-radius: 15px;
     padding: 10px;
     margin-top: 10px;
     margin-left: 20px;
@@ -228,8 +216,8 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: #3f17af 3px solid;
-    border-radius: 5px;
+    box-shadow: 0 0 20px #3f17af;
+    border-radius: 15px;
     padding: 10px;
     margin-top: 10px;
     margin-left: 20px;
@@ -267,8 +255,8 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: #3f17af 3px solid;
-    border-radius: 5px;
+    box-shadow: 0 0 20px #3f17af;
+    border-radius: 15px;
     padding: 10px;
     margin-top: 10px;
     margin-left: 20px;
@@ -284,7 +272,8 @@ a {
 table {
     border-collapse: collapse;
     background-color: #211b2b;
-
+    border-radius: 5px;
+    
     @media (max-width: 768px) {
         width: 100%;
     }
